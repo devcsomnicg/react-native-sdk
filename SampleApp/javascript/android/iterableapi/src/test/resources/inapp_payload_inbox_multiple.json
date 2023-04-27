@@ -1,0 +1,98 @@
+{
+  "inAppMessages": [
+    {
+      "messageId": "message1",
+      "content": {
+        "html": "<html><head></head><body>Test</body></html>",
+        "inAppDisplaySettings": {
+          "top": {
+            "percentage": 0
+          },
+          "right": {
+            "percentage": 0
+          },
+          "bottom": {
+            "percentage": 0
+          },
+          "left": {
+            "percentage": 0
+          }
+        }
+      },
+      "customPayload": {
+        "intValue": 123
+      }
+    },{
+      "messageId": "message2",
+      "content": {
+        "html": "<html><head></head><body>Test</body></html>",
+        "inAppDisplaySettings": {
+          "top": {
+            "percentage": 0
+          },
+          "right": {
+            "percentage": 0
+          },
+          "bottom": {
+            "percentage": 0
+          },
+          "left": {
+            "percentage": 0
+          }
+        }
+      },
+      "saveToInbox": true,
+      "customPayload": {
+        "intValue": 123
+      }
+    },{
+      "messageId": "message3",
+      "content": {
+        "html": "<html><head></head><body>Test</body></html>",
+        "inAppDisplaySettings": {
+          "top": {
+            "percentage": 0
+          },
+          "right": {
+            "percentage": 0
+          },
+          "bottom": {
+            "percentage": 0
+          },
+          "left": {
+            "percentage": 0
+          }
+        }
+      },
+      "customPayload": {
+        "intValue": 123
+      }
+    },{
+      "messageId": "message4",
+      "read": true,
+      "content": {
+        "html": "<html><head></head><body>Test</body></html>",
+        "inAppDisplaySettings": {
+          "top": {
+            "percentage": 0
+          },
+          "right": {
+            "percentage": 0
+          },
+          "bottom": {
+            "percentage": 0
+          },
+          "left": {
+            "percentage": 0
+          }
+        }
+      },
+      "saveToInbox": true,
+      "inboxMetadata": {
+        "title": "Title",
+        "subtitle": "Subtitle",
+        "icon": "icon.png"
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "952087903825",
+    "project_id": "aman-fd0d9",
+    "storage_bucket": "aman-fd0d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952087903825:android:83bf8f3b894b08a0e78270",
+        "android_client_info": {
+          "package_name": "org.reactjs.native.example.TestIterableRNProj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "952087903825-3lbfvp1eaf69b8qd0b0bl233hqvlno03.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrZdfv5bcxOemJXk23wqdZ_Pth2KbNltE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "952087903825-3lbfvp1eaf69b8qd0b0bl233hqvlno03.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

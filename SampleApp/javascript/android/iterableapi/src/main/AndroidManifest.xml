@@ -1,0 +1,45 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iterable.iterableapi">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application>
+
+        <!--FCM-->
+        <service
+            android:name="com.iterable.iterableapi.IterableFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter android:priority="-1">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <!-- Action receiver for push interactions -->
+        <receiver
+            android:name="com.iterable.iterableapi.IterablePushActionReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.iterable.push.ACTION_PUSH_ACTION" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".IterableTrampolineActivity"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:theme="@style/TrampolineActivity.Transparent"/>
+    </application>
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="https" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="http" />
+        </intent>
+    </queries>
+
+</manifest>

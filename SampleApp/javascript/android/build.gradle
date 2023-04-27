@@ -3,17 +3,27 @@
 buildscript {
     ext {
         buildToolsVersion = "28.0.3"
-        minSdkVersion = 16
-        compileSdkVersion = 28
-        targetSdkVersion = 28
+        minSdkVersion = 23
+        compileSdkVersion = 33
+        targetSdkVersion = 33
+        kotlin_version = '1.6.21'
     }
     repositories {
         google()
         jcenter()
+        mavenCentral()
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
     }
     dependencies {
-        classpath('com.android.tools.build:gradle:3.4.2')
-
+        classpath('com.android.tools.build:gradle:3.4.3')
+        classpath 'com.google.gms:google-services:4.3.3'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath ('com.hiya:jacoco-android:0.2') {
+            exclude group: 'org.codehaus.groovy', module: 'groovy-all'
+        }
+        classpath "com.github.dcendents:android-maven-gradle-plugin:2.1"
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
@@ -22,6 +32,7 @@ buildscript {
 allprojects {
     repositories {
         mavenLocal()
+        mavenCentral()
         maven {
             // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
             url("$rootDir/../node_modules/react-native/android")

@@ -1,0 +1,140 @@
+{
+  "inAppMessages": [
+    {
+      "messageId": "7kx2MmoGdCpuZao9fDueuQoXVAZuDaVV",
+      "createdAt": 1549147312395,
+      "expiresAt": 1549157312395,
+      "trigger": {
+        "type": "immediate"
+      },
+      "content": {
+        "html": "<html><head></head><body>Test1</body></html>",
+        "inAppDisplaySettings": {
+          "top": {
+            "percentage": 0
+          },
+          "right": {
+            "percentage": 0
+          },
+          "bottom": {
+            "percentage": 0
+          },
+          "left": {
+            "percentage": 0
+          },
+          "bgColor": {
+            "hex": "#ABCDEF",
+            "alpha": 0.5
+          },
+          "shouldAnimate": true
+        }
+      },
+      "customPayload": {
+        "intValue": 123
+      },
+      "priorityLevel": 300.5
+    },
+    {
+      "messageId": "7kx2MmoGdCpuZao9fDueuQoXVAZuDaVY",
+      "content": {
+        "html": "<html><head></head><body>Test2</body></html>",
+        "inAppDisplaySettings": {
+          "top": {
+            "percentage": 0
+          },
+          "right": {
+            "percentage": 0
+          },
+          "bottom": {
+            "percentage": 0
+          },
+          "left": {
+            "percentage": 0
+          },
+          "bgColor": {
+            "hex": "#ABCDEF",
+            "alpha": 0.5
+          },
+          "shouldAnimate": true
+        }
+      },
+      "customPayload": {
+        "intValue": 123
+      },
+      "priorityLevel": 100.0
+    },
+    {
+      "messageId": "7kx2MmoGdCpuZao9fDueuQoXVAZuDaVZ",
+      "expiresAt": 1549157312395,
+      "trigger": {
+        "type": "event",
+        "eventType": "screenView",
+        "eventParams": {
+          "screenName": "Main"
+        }
+      },
+      "content": {
+        "html": "<html><head></head><body>Test3</body></html>",
+        "inAppDisplaySettings": {
+          "top": {
+            "percentage": 0
+          },
+          "right": {
+            "percentage": 0
+          },
+          "bottom": {
+            "percentage": 0
+          },
+          "left": {
+            "percentage": 0
+          },
+          "bgColor": {
+            "hex": "#ABCDEF",
+            "alpha": 0.5
+          },
+          "shouldAnimate": true
+        }
+      },
+      "customPayload": {
+        "intValue": 123
+      },
+      "priorityLevel": 200.5
+    },
+    {
+      "messageId": "7kx2MmoGdCpuZao9fDueuQoXVAZuDaV0",
+      "expiresAt": 1549157312395,
+      "trigger": {
+        "type": "immediate"
+      },
+      "content": {
+        "html": "<html><head></head><body>Test4</body></html>",
+        "inAppDisplaySettings": {
+          "top": {
+            "percentage": 0
+          },
+          "right": {
+            "percentage": 0
+          },
+          "bottom": {
+            "percentage": 0
+          },
+          "left": {
+            "percentage": 0
+          },
+          "bgColor": {
+            "hex": "#ABCDEF",
+            "alpha": 0.5
+          },
+          "shouldAnimate": true
+        }
+      },
+      "saveToInbox": true,
+      "inboxMetadata": {
+        "title": "Title",
+        "subtitle": "Subtitle",
+        "icon": "icon.png"
+      },
+      "priorityLevel": 400.0
+    }
+  ]
+}

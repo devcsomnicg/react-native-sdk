@@ -42,7 +42,6 @@ export default class App extends React.Component {
         
         // inAppDisplayInterval sets the number of seconds to wait between displaying multiple in-app messages in sequence
         config.inAppDisplayInterval = 1.0;
-        
         // urlHandler is set up here to handle deep link URLs and in-app message buttons and link URLs
         config.urlHandler = this.urlHandler;
         
