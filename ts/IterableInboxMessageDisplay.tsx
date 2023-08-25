@@ -10,7 +10,7 @@ import {
    TouchableWithoutFeedback,
 } from 'react-native'
 import { WebView } from 'react-native-webview'
-import Icon from 'react-native-vector-icons/Ionicons'
+import Svg, { Path } from 'react-native-svg';
 
 import { 
    IterableHtmlInAppContent, 
@@ -201,7 +201,15 @@ const IterableInboxMessageDisplay = ({
                   }}
                >
                   <View style={returnButton}>
-                     <Icon name="ios-chevron-back" style={returnButtonIcon} />
+                     <Svg width={40} height={40} viewBox="0 0 24 24" fill="none">
+                        <Path
+                           d="M15 18L9 12L15 6"
+                           stroke={'deepskyblue'}
+                           strokeWidth="2"
+                           strokeLinecap="round"
+                           strokeLinejoin="round"
+                        />
+                     </Svg>
                      <Text style={returnButtonText}>Inbox</Text>
                   </View>
                </TouchableWithoutFeedback>
